@@ -7,8 +7,6 @@ function loadComponent(componentPath, targetElement) {
     .catch((error) => console.error("Error loading component:", error));
 }
 
-// Load the navigation component
-loadComponent("components/navigation.html", "header");
 
 // Load the navigation JavaScript
 const script = document.createElement("script");
@@ -16,4 +14,10 @@ script.src = "js/components/navigation/navigation.js";
 script.type = "application/javascript";
 document.body.appendChild(script);
 
+// components
+
+loadComponent("components/header.html", "header");
+loadComponent("components/main.html", "main")
 loadComponent("components/footer.html", "footer");
+
+
