@@ -95,8 +95,17 @@ footer {
     margin-left: 40px;
 }
 
+#toggle-bar {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
 
-/*  */
+
+/* responsive header */
 
 
 @media (max-width: 768px) {
@@ -178,5 +187,40 @@ footer {
 
     #nav-login {
         margin-top: 5px;
+    }
+}
+
+@media (max-width: 273px) {
+    #header-section {
+        grid-template-columns: 1fr;
+        margin: 0 5px;
+        align-items: center;
+    }
+
+    #heading {
+        grid-column: span 1;
+        margin-left: 0;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    #nav-sections {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #nav-element {
+        padding: 10px;
+    }
+
+    #signup-login {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    #toggle-bar {
+        display: block;
     }
 }
