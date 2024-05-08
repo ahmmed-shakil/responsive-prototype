@@ -1,4 +1,40 @@
-/* components.css
+/* components.css */
+.bg_primary{
+    background-color: teal;
+}
+
+.text_primary{
+    color: antiquewhite;
+}
+
+.nav_title{
+    font-size: 1.2rem;
+    margin: 0 ;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0;
+}
+
+.nav_item{
+    font-size: 0.8rem;
+    display: block;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    padding: 7px 8px;
+    color: black;
+    border: 1px solid antiquewhite;
+}
+
+.nav_item:hover{
+    background-color: transparent;
+    color: antiquewhite;
+}
+
 nav ul li {
     display: inline-block;
     margin-right: 20px;
@@ -6,7 +42,7 @@ nav ul li {
 
 
 /* navigation/navigation.css */
-/* nav ul {
+ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -15,7 +51,7 @@ nav ul li {
 nav ul li {
     display: inline-block;
     margin-right: 20px;
-} */ */
+} 
 
 #menu-toggle {
     display: none; /* Hidden on large screens */
@@ -36,6 +72,9 @@ nav ul li {
 
     #mobile-menu.hidden {
         display: block;
+    }
+    .navbar{
+        display: none;
     }
 }
 

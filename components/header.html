@@ -1,21 +1,22 @@
+<!-- navigation/navigation.html -->
 
-
-
-
-<body>
-    <div id="header-section">
-    <h4 id="heading">Responsive Prototype</h4>
-  <div id="nav-sections">
-    <ul>
-        <a id="nav-element">Home</a>
-        <a id="nav-element">about</a>
-        <a id="nav-element">contact</a>
-    </ul>
+<nav aria-label="Main Navigation" class="text_primary">
+  <div class="bg_primary">
+    <section class="navbar container">
+      <aside>
+        <h4 class="nav_title">Prototype</h4>
+      </aside>
+      <ul id="nav_ul">
+        <li><a class="nav_item" href="#home">Home</a></li>
+        <li><a class="nav_item" href="#about">About</a></li>
+        <li><a class="nav_item" href="#contact">Contact</a></li>
+      </ul>
+    </section>
   </div>
-  <div id="signup-login" >
-    <button id="btn-signup">signup</button>
-    <a id="nav-login">/ login</a>
-  </div>
-  <div id="toggle-bar" onclick="toggleNav()">&#9776;</div>
-</div>
-</body>
+  <button id="menu-toggle">Menu</button>
+  <ul id="mobile-menu" class="hidden">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
