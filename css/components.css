@@ -63,7 +63,7 @@ nav ul li {
 } 
 
 #menu-toggle {
-    display: none; /* Hidden on large screens */
+    display: none; 
 }
 
 #mobile-menu.hidden {
@@ -193,10 +193,11 @@ footer {
 
 .about_container {
     padding: 120px 0px;
-    /* margin: 200px; */
 }
 
-
+#hero-para{
+    padding-left: 100px;
+}
 
 .about-us {
     display: grid;
@@ -217,16 +218,16 @@ footer {
 .bottom-image {
     width: 60%;
     border-radius: 10px;
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove default margin */
+    height: auto; 
+    display: block; 
 }
 
 /* Top image */
 .top-image {
     position: absolute;
-    top: 20%; /* Adjust as desired */
-    left: 30%; /* Adjust as desired */
-    width: 60%; /* Adjust as desired */
+    top: 20%; 
+    left: 30%; 
+    width: 60%;              
     height: auto; 
     z-index: 1; 
     border-radius: 10px;
@@ -252,12 +253,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    /* background-color: #ffffff; */
 }
 
 .grid-cards .card {
     background-color: #f9f9f9;
-    /* padding: 20px; */
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
@@ -287,6 +286,17 @@ footer {
 
 #about{
     margin-top: 80px;
+}
+
+
+.hero-container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding: 20px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
 }
 
 .about-section {
@@ -366,6 +376,14 @@ p {
     .response-card {
         padding: 20px;
         margin: 20px 0;
+    }
+
+    .hero-container{
+        padding: 15px 20px;
+    }   
+
+    #hero-para{
+        padding-left: 0px;
     }
 
     .card-button {
