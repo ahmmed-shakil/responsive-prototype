@@ -32,16 +32,16 @@ nav{
 .nav_item{
     font-size: 0.8rem;
     display: block;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     border-radius: 6px;
     padding: 7px 8px;
     color: black;
-    border: 1px solid antiquewhite;
+    border: 1px solid whitesmoke;
 }
 
 .nav_item:hover{
     background-color: transparent;
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
 nav ul li {
@@ -79,6 +79,14 @@ footer {
     padding: 20px;
     background-color: #f0f0f0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    padding: 0;
+    margin: 0;
 }
 
 .footer-links a,
@@ -172,12 +180,14 @@ footer {
     width: 50%;
 }
 
-.hero-section .content h1, .hero-section .content h2 {
+.hero-section .content h1, .hero_content h2 {
     margin: 10px 0;
+    color: whitesmoke;
 }
 
-.hero-section p{
+.hero_content p{
     margin: 40px 0;
+    color: whitesmoke;
 }
 
 .hero-section button {
@@ -251,7 +261,7 @@ footer {
 .grid-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
     /* background-color: #ffffff; */
 }
 
