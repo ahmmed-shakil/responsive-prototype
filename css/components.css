@@ -188,6 +188,7 @@ footer p {
 .hero_content p{
     margin: 40px 0;
     color: whitesmoke;
+    font-size: 1.1rem;
 }
 
 .hero-section button {
@@ -295,14 +296,10 @@ footer p {
 
 /* about css */
 
-#about{
-    margin-top: 80px;
-}
 
 .about-section {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f4f4f9;
 }
 
 .about-container {
@@ -366,30 +363,12 @@ p {
 }
 
 
-/* making the about reponsive */
-
-@media screen and (max-width: 600px) {
-    .about-container {
-        padding: 15px 20px;
-    }
-
-    .response-card {
-        padding: 20px;
-        margin: 20px 0;
-    }
-
-    .card-button {
-        padding: 8px 15px;
-    }
-}
-
-
 
 
 /* contact us section css */
 
 #contact{
-    margin-top: 80px;
+    padding-top: 30px;
 }
 
 .contact-section {
@@ -454,23 +433,31 @@ textarea {
     background-color: #005a8f;
 }
 
-/* making contact us section responsive */
-
-@media screen and (max-width: 600px) {
-    .about-container, .contact-container {
-        padding: 15px 20px;
-    }
-
-    .response-card {
-        padding: 20px;
-        margin: 20px 0;
-    }
-
-    .card-button {
-        padding: 8px 15px;
-    }
-
-    .form-button {
-        padding: 8px 15px;
-    }
+.page_hero{
+    background-image: url('../assets/image-three.webp'); 
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+    background-attachment: fixed;
 }
+
+
+
+.page_hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4; 
+}
+
+

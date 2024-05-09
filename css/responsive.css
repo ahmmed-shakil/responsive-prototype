@@ -159,6 +159,9 @@
 
 
 @media (max-width: 768px) {
+    .page_hero{
+        height: 30vh;
+    }
     .mobile_nav{
         display: block;
     }
@@ -270,6 +273,40 @@
 
     .grid-cards {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* making contact us section responsive */
+
+@media screen and (max-width: 600px) {
+    .about-container, .contact-container {
+        padding: 15px 20px;
+    }
+
+    .response-card {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .card-button {
+        padding: 8px 15px;
+    }
+
+    .form-button {
+        padding: 8px 15px;
+    }
+
+    .about-container {
+        padding: 15px 20px;
+    }
+
+    .response-card {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .card-button {
+        padding: 8px 15px;
     }
 }
 
