@@ -14,13 +14,3 @@ menuToggle.addEventListener("click", function () {
   console.log("🚀 ~ mobileMenu:", mobileMenu.classList);
 });
 
-// header
-
-// function toggleNav() {
-//   var navSections = document.getElementById("nav-sections");
-//   if (navSections.style.display === "flex") {
-//     navSections.style.visibility = "hidden";
-//   } else {
-//     navSections.style.display = "flex";
-//   }
-// }

@@ -372,3 +372,95 @@ p {
         padding: 8px 15px;
     }
 }
+
+
+
+
+/* contact us section css */
+
+#contact{
+    margin-top: 80px;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-button {
+    display: inline-block;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #005a8f;
+}
+
+/* making contact us section responsive */
+
+@media screen and (max-width: 600px) {
+    .about-container, .contact-container {
+        padding: 15px 20px;
+    }
+
+    .response-card {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .card-button {
+        padding: 8px 15px;
+    }
+
+    .form-button {
+        padding: 8px 15px;
+    }
+}
