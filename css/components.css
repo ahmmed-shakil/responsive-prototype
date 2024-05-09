@@ -281,3 +281,94 @@ footer {
     padding: 10px 10px 20px 10px;
 }
 
+
+
+/* about css */
+
+#about{
+    margin-top: 80px;
+}
+
+.about-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.response-card {
+    background-color: #0077b6;
+    color: white;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.response-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.response-card h2 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.response-card p {
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #0077b6;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #e0e0e0;
+    color: #005a8f;
+}
+
+
+/* making the about reponsive */
+
+@media screen and (max-width: 600px) {
+    .about-container {
+        padding: 15px 20px;
+    }
+
+    .response-card {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .card-button {
+        padding: 8px 15px;
+    }
+}
