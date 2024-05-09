@@ -43,7 +43,7 @@ form.addEventListener("submit", async (event) => {
     if (response.ok) {
       // The request was successful
       const result = await response.json();
-      alert("Message sent successfully!");
+      alert("Message sent successfully!!");
 
       // Reset the form after successful submission
       form.reset();
