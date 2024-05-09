@@ -150,7 +150,7 @@ footer p {
 
 
 .hero-section {
-    background-image: url('../assets/image-three.png'); 
+    background-image: url('../assets/hero_image.jpg'); 
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -434,7 +434,7 @@ textarea {
 }
 
 .page_hero{
-    background-image: url('../assets/image-three.png');
+    background-image: url('../assets/hero_image.jpg');
     height: 50vh;
     background-size: cover;
     background-position: center;
