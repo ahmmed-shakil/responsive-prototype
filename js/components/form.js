@@ -35,12 +35,12 @@ form.addEventListener("submit", async (event) => {
           email,
           message,
         }),
-        mode: "no-cors",
       }
     );
 
     // Check the response status
-    if (response) {
+    if (response.ok) {
+      console.log("🚀 ~ form.addEventListener ~ response:", response);
       // The request was successful
       const result = await response.json();
       alert("Message sent successfully!");
