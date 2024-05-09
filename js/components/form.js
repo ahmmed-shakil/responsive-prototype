@@ -35,7 +35,7 @@ form.addEventListener("submit", async (event) => {
           email,
           message,
         }),
-        mode: "cors",
+        mode: "no-cors",
       }
     );
 
