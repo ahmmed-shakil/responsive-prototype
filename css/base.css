@@ -29,3 +29,42 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.section_title {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    color: teal;
+    text-align: center;
+    position: relative;
+}
+
+.section_title::after {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: teal;
+    margin: 10px auto 0;
+}
+
+.section_title_2 {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    color: #f9f9f9;
+    text-align: center;
+    position: relative;
+}
+
+.section_title_2::after {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: #f9f9f9;
+    margin: 10px auto 0;
+}
